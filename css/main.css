@@ -11,6 +11,7 @@
    ========================================================================== */
 
 html {
+  font-family: Optima, sans-serif;
     color: #222;
     font-size: 1em;
     line-height: 1.4;
@@ -97,11 +98,38 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+form {
+  width: 240px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 10px 3px;
+}
 
+form > p {
+  margin: 0 5px;
+  font-size: 18px;
+}
 
+form > input {
+  margin: 5px;
+  border: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
 
+#submit {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: white;
+  color: black;
+}
 
-
+#submit:hover {
+  background-color: rgb(240, 240, 240);
+  cursor: pointer;
+}
 
 
 
