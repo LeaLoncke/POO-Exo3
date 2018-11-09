@@ -131,10 +131,24 @@ form > input {
   cursor: pointer;
 }
 
+h1 {
+  font-size: 20px;
+}
 
+h2 {
+  font-size: 18px;
+}
 
+#productsContainer {
+  display: flex;
+  flex-flow: row wrap;
+}
 
-
+#productsContainer > div {
+  margin: 10px;
+  border: 1px dashed black;
+  padding: 0 8px;
+}
 
 
 
